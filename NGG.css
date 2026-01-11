@@ -137,16 +137,15 @@
     padding: 20px;
     animation: alternate-reverse glow 3s infinite;
 }
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .GameContainer1, .GameContainer2 {
-        width: 250px;
-        height:400px;
+        width: 90%;
     }
     #levelSelect {
         width: 100%;
     }
-    
 }
+
 
 
 
