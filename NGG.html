@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMBER GUESSING GAME</title>
+    <link rel="stylesheet" href="NGG.css">
+    <script src="NGG.js" defer></script>
+</head>
+<body class="body1">  
+    <div class="GameContainer">
+        <h1 class="head">Number Guessing Game</h1>
+        <h3>Enter Difficulty Level</h3>
+        <input type="text" id="levelInput" class="inputt" placeholder="Enter Level (1-Easy, 2-Medium, 3-Hard)" required>
+        <div class="statusRow">
+        <p >Difficulty level: <span id="leveldifficulty">None</span></p>
+        <p>Attempts Left: <span id="attemptsDisplay">Not Started</span></p>
+        </div>
+        <!--- <div class="gameContainer2">-->
+        <h1 class="head">Pick a number from 1 to 100</h1>
+        <h3 class="feed"><span id="feedback">Game Has Not Started Yet</span></h3>
+        <!--<p >Difficulty level:<p id="leveldifficulty"></p></p>-->
+        <input type="number" id="guessInput" class="inputt"placeholder="Enter your guess" required>
+        <button id="submitGuessBtn" onclick="submitGuess()" class="submit">Submit Guess</button>
+       <div class="statusRow"><button class="rulesBtn" onclick="document.location='NGG1.html'">Rules</button>
+        <button id="startBtn" onclick=" startgame(); ">Start Game</button></div>
+    </div>
+</html>

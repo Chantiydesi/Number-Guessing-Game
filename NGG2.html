@@ -1,0 +1,19 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NUMBER GUESSING GAME</title>
+    <link rel="stylesheet" href="NGG.css">
+    <script src="NGG.js" defer></script>
+</head>
+<body class="body1">
+    <div class="gameContainer2">
+        <h1 class="head">Pick a number from 1 to 100</h1>
+        <p >Difficulty level:<p id="leveldifficulty"></p></p>
+        <p id="attemptsDisplay"></p>
+        <input type="number" id="guessInput" placeholder="Enter your guess" required>
+        <button id="submitGuessBtn" onclick="submitGuess()">Submit Guess</button>
+        <p id="feedback"></p>
+    </div>  
+</body>
+</html>
