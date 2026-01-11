@@ -139,14 +139,15 @@
 }
 @media screen and (max-width: 768px) {
     .GameContainer1, .GameContainer2 {
-        width: fit-content;
-        height:fit-content;
+        width: 250px;
+        height:400px;
     }
     #levelSelect {
         width: 100%;
     }
     
 }
+
 
 
 
